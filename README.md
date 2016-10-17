@@ -6,3 +6,5 @@ Useful configurations for Android Studio
 ```
 {ANDROID_STUDIO_LOCATION}/plugins/android/lib/activities/other
 ```
+You may find:
+- `MvpTemplate`: a template to generate an activity-based MVP module (using the amazing [mosby library by Hannes Dorfmann](http://hannesdorfmann.com/mosby/))
