@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="MVP template (mosby)"
+    description="Creates a new MVP template (based on mosby).">
+
+    <category value="Activity"/>
+    <formfactor value="Mobile"/>
+	
+    <parameter
+        id="mvpModuleName"
+        name="MVP module name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="MyMvpModule"
+        help="The name of your new MVP module" />
+
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_mvp_activity.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
