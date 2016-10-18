@@ -8,3 +8,7 @@ Useful configurations for Android Studio
 ```
 You may find:
 - `MvpTemplate`: a template to generate an activity-based MVP module (using the amazing [mosby library by Hannes Dorfmann](http://hannesdorfmann.com/mosby/))
+
+## TODO
+
+- [ ] add template for dagger2-compliant VIPER module
